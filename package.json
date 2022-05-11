@@ -1,0 +1,19 @@
+{
+  "name": "willis",
+  "version": "1.0.0",
+  "description": "- [WTW Code Challenges](#wtw-code-challenges)\r   - [Instructions](#instructions)\r   - [Challenges](#challenges)\r     - [C#](#c)\r     - [React](#react)\r       - [Angular (if you don't have React experience)](#angular-if-you-dont-have-react-experience)\r     - [SQL](#sql)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattdirk/Willis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattdirk/Willis/issues"
+  },
+  "homepage": "https://github.com/mattdirk/Willis#readme"
+}
