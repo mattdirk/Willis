@@ -2,6 +2,7 @@
 	<label>Person ID</label><br />
 	<input type="text" id="txtPersonId" [(ngModel)]="personId" /> <br/>
 	<button (click)="getPerson()">Get Person</button>
+	<!-- was unable to find the npm project that would render the emoji-c components. I tried to install a different tool but was getting errors with that as well.  for time constraints went with this option of colored text. -->
 	<div *ngIf="pending == true"><apple></apple></div>
 	<div *ngIf="boolDisplay == true"><banana></banana></div>
 	<div *ngIf="boolDisplay == false"><carrot></carrot></div>
