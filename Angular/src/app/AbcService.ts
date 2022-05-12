@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-@Injectable()
+@Injectable({ providedIn: 'root' })
 export class AbcService {
   async GetAbcData(personId: number): Promise<IAbcData> {
     await this.asyncTimeout(500);
